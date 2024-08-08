@@ -14,5 +14,4 @@ int main(){
         cout<<"u r eligible";
     }
     return 0;
-
 }
