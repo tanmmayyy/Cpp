@@ -3,9 +3,9 @@ using namespace std;
 
 class Employee{
 public: 
-    string Name;
+    string Name;                             //Attributes{
     string Company;
-    int Age;
+    int Age;                                 //          }                       
 
     void introduce(){                        //method
         cout<< "Name- "<<Name<<endl;
