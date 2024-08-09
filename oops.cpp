@@ -30,9 +30,9 @@ int main(){
     // employee1.Company = "Notty Adda";
     // employee1.Age = 84;
 
-    Employee employee1 = Employee("Notty Fufa","Notty Adda", 84);
+    Employee employee1 = Employee("Notty Fufa","Notty Adda", 84);             //constructor
     employee1.introduce();
 
-    Employee employee2 = Employee("John","WWE", 45);
+    Employee employee2 = Employee("John","WWE", 45);                          //constructor
     employee2.introduce();
 }
