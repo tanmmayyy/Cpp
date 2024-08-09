@@ -21,5 +21,5 @@ int main(){
     employee1.Name = "Notty Fufa";
     employee1.Company = "Notty Adda";
     employee1.Age = 84;
-    employee1.introduce()
+    employee1.introduce();
 }
