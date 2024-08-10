@@ -22,7 +22,10 @@ public:
         return Company;
     }
     void setAge(int age){
-        Age = age;
+        if (age >=18){
+            Age = age;
+        }
+        
     }
 
     int getAge(){
@@ -58,6 +61,6 @@ int main(){
     Employee employee2 = Employee("John","WWE", 45);                          //constructor
     employee2.introduce();
 
-    employee1.setAge(40);
+    employee1.setAge(11);
     cout<<employee1.getName()<<" is "<<employee1.getAge()<<" years old";
 }
