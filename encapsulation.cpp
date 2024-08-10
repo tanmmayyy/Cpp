@@ -3,9 +3,9 @@ using namespace std;
 
 class Employee{
 private: 
-    string Name;                             //Attributes{
+    string Name;                             //Attributes are encapsulated {
     string Company;
-    int Age;                                 //          }                    
+    int Age;                                 //                            }                    
 public:
     void setName(string name){
         Name = name;
