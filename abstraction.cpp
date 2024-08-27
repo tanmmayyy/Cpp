@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+
+class abstractEmployee{
+    virtual void AskForPromotion()=0;
+};
 class Employee{
 private: 
     string Name;                             //Attributes are encapsulated {
