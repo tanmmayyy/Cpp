@@ -50,6 +50,16 @@ public:
 
     }
 
+    void AskForPromotion() {
+        if (Age>30){
+            cout << Name << " got promoted!"<<endl;
+        }else{
+            cout << Name << ", sorry no promotion for you!"<<endl;
+        }
+
+    }
+    
+
 };
 
 
