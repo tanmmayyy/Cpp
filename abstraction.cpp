@@ -69,12 +69,15 @@ int main(){
     // employee1.Company = "Notty Adda";
     // employee1.Age = 84;
 
-    Employee employee1 = Employee("Notty Fufa","Notty Adda", 84);             //constructor
-    employee1.introduce();
+       Employee employee1 = Employee("Notty Fufa","Notty Adda", 84);             //constructor
+//     employee1.introduce();
 
-    Employee employee2 = Employee("John","WWE", 45);                          //constructor
-    employee2.introduce();
+       Employee employee2 = Employee("John","WWE", 5);                          //constructor
+//     employee2.introduce();
 
-    employee1.setAge(11);
-    cout<<employee1.getName()<<" is "<<employee1.getAge()<<" years old";
-}
+//     employee1.setAge(11);
+//     cout<<employee1.getName()<<" is "<<employee1.getAge()<<" years old";
+
+        employee1.AskForPromotion();
+        employee2.AskForPromotion();
+ }
