@@ -6,12 +6,10 @@ int main(){
 
     int a = 3;
     int *b = &a;
-
+                                                            
     // & ---> (address of ) operator
     cout << "Address of a is: "<< &a <<endl;
     cout << "Address of a is: "<< b <<endl;
-    
-    
     
     // * ---> dereference operator
 
