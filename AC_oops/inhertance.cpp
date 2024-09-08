@@ -2,6 +2,7 @@
 using namespace std;
 #include <string>
 
+
 class Person{
 public:
     string name;
