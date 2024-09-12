@@ -4,16 +4,18 @@ using namespace std;
 int main(){
     // what is a pointer --->  data type which holds the adderess of other datatype
 
-    int a = 3;
-    int *b = &a;
+    // int a = 3;
+    // int *b = &a;
                                                             
-    // & ---> (address of ) operator
-    cout << "Address of a is: "<< &a <<endl;
-    cout << "Address of a is: "<< b <<endl;
+    // // & ---> (address of ) operator
+    // cout << "Address of a is: "<< &a <<endl;
+    // cout << "Address of a is: "<< b <<endl;
     
-    // * ---> dereference operator
+    // // * ---> dereference operator
 
-    cout << "The value at address b is: "<< *b <<endl;
+    // cout << "The value at address b is: "<< *b <<endl;
+
+    
 
 
 }

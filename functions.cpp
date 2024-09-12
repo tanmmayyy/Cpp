@@ -3,8 +3,8 @@ using namespace std;
 
 void helloWorld(){
     cout << "hello world";
-
 }
+
 int sum(int a, int b){
     return a+b;
 }
