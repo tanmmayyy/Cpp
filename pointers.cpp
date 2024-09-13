@@ -53,4 +53,17 @@ int main(){
     int *q = add_num;
     cout << q << " - "<< add_num << endl;
     cout << *q << " - "<< *add_num << endl;
+    
+
+
+    // ARITHMETIC ADDITION
+    int i = 3;
+    int *t = &i;
+
+    cout << "t before "<< t << endl;
+    t = t+1;
+    cout << "t after " << t << endl;
+
+
+
 }
