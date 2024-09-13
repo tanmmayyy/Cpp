@@ -15,17 +15,23 @@ int main(){
 
     // cout << "The value at address b is: "<< *b <<endl;
 
-    int *ptr=0;
-    cout << &ptr;
 
     int num = 5;
     int *add_num = &num;
-    cout << *add_num<<endl;
+    num++;
+    cout << "address of num is: "<< add_num<<endl;
+    cout << "the value at add_num is :"<<*add_num<<endl;
+    cout << "size of integer is: "<< sizeof(num)<<endl;
+    cout << "size of pointer add_num is: "<<sizeof(add_num)<<endl;
+
 
     string a = "A";
     string *add_a = &a;
     cout<< &a<<endl;
+    cout << "size of char a is: "<< sizeof(a)<<endl;
 
     int **add_add_num = &add_num;
     cout << add_add_num<<endl;
+
+
 }
