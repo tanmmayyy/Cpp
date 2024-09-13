@@ -18,7 +18,7 @@ int main(){
 
     int num = 5;
     int *add_num = &num;
-    num++;
+    //num++;
     // cout << "address of num is: "<< add_num<<endl;
     // cout << "the value at add_num is :"<<*add_num<<endl;
     // cout << "size of integer is: "<< sizeof(num)<<endl;
@@ -39,7 +39,13 @@ int main(){
     // pointer p is created and pointing some garbage address, we should not do this "BAD PRACTICE"....instead we should declare it to 0
     
     int *p = 0;
-    cout << *p<< endl;
+    // cout << *p<< endl;
 
+
+    // addition using pointers
+
+    cout << "value of num before addition is: "<< num<< endl;
+    (*add_num)++;
+    cout << "value of num after addition is: "<< num << endl;
 
 }
