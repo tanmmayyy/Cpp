@@ -44,8 +44,13 @@ int main(){
 
     // addition using pointers
 
-    cout << "value of num before addition is: "<< num<< endl;
-    (*add_num)++;
-    cout << "value of num after addition is: "<< num << endl;
+    // cout << "value of num before addition is: "<< num<< endl;
+    // (*add_num)++;
+    // cout << "value of num after addition is: "<< num << endl;
 
+
+    //  COPYING POINTER
+    int *q = add_num;
+    cout << q << " - "<< add_num << endl;
+    cout << *q << " - "<< *add_num << endl;
 }
