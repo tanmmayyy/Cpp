@@ -17,6 +17,8 @@ public:
     string getName(){
         return Name;
     }
+
+    
     
     void setCompany(string company){
         Company = company;
