@@ -61,7 +61,7 @@ int main(){
     int *t = &i;
 
     cout << "t before "<< t << endl;
-    t = t+1;
+     t = t+1;
     cout << "t after " << t << endl;
 
 
